@@ -1,0 +1,72 @@
+<!Doctype html>
+<html lang="de">
+    <head>
+       	<title> Schaltungen </title>
+           <link href="style.css" rel="stylesheet"> 
+	<meta charset = utf8>
+    <style>
+        img {
+        max-width:100%;
+        height: auto;
+        }
+      </style>
+    </head>
+    <body>
+        <h1> Schaltungen </h1>
+    
+      <h3> Hallo und herzlich Willkommen zur Lerneinheit 10! </h3>  
+
+Wir haben bisher Algorithmen mit Hilfe von Scratch oder Java in Software implementiert. In der Lerneinheit 10 und 11 starten wir nun ein neues Thema und betrachten jetzt genauer, wie wir Abläufe in kleinen Bauteilen, also konkret in Hardware, umsetzen können. Dafür beschäftigen wir uns näher mit der Booleschen Algebra und logischen Ausdrücken, Wahrheitstabellen und Gatterschaltungen.
+
+<p> Jeder Computer kennt nur zwei Zustände: 0 oder 1. Etwas konkreter könnten wir auch von Strom an/aus sprechen. Oder mit Bezug auf eine "klassische" Festplatte sprechen wir von magnetisiert/nicht magnetisiert.  </p>
+
+Wir haben bereits kennengelernt, wie wir mit diesen zwei Zuständen Zahlen und Buchstaben darstellen und rechnen können (Stichworte z.B.: Einer- und Zweierkomplement, ASCII-Codierung). 
+<p> In dieser Lerneinheit schauen wir uns die Hardware-Seite an und adressieren dabei die folgenden drei Lernziele: </p>
+<ul id="Inhalt"> 
+   <li> <a href="#Rechnerarchitektur"> Sie können die wichtigsten Begriffe zur Rechnerarchitektur erklären und in Kontext zueinander bringen </a> </li> 
+   <li> <a href="#Darstellungsformen">Sie können die grundlegenden Darstellungsformen (Wahrheitstabellen, Logische Ausdrücke und Gatterschaltungen) erstellen </a> </li> 
+   <li> <a href="#Vereinfachung">Sie können die grundlegenden Darstellungsformen vereinfachen und ineinander überführen <a></a></li>    
+</ul>
+
+<h3 id="Rechnerarchitektur"> Begriffe der Rechnerarchitektur </h3>
+
+<img src="Schaltung_darstellung.png">
+
+  <p> <b> ChatGPT </b> erklärt hierzu noch:</p>
+  <p>Die Rechnerarchitektur bezieht sich auf die Organisation und Struktur von Computerhardware, die für die Verarbeitung von Daten und die Ausführung von Programmen verantwortlich ist. Sie umfasst die Gestaltung von Prozessoren, Speicher, Bussysteme und Ein- und Ausgabegeräte, die zusammenarbeiten, um die Funktionalität und Leistung eines Computersystems zu bestimmen.</p>
+<p>Die Rechnerarchitektur definiert die Art und Weise, wie Computerbefehle ausgeführt und Daten verarbeitet werden. Sie umfasst die Festlegung der Register, die zur Speicherung von Daten und Befehlen im Prozessor verwendet werden, sowie die Organisation des Speichersystems, das zur Speicherung von Programmen und Daten dient. Die Rechnerarchitektur bestimmt auch, wie Daten zwischen den verschiedenen Komponenten des Computersystems ausgetauscht werden, z.B. über Bussysteme, die die Kommunikation zwischen Prozessor, Speicher und Ein- und Ausgabegeräten ermöglichen.</p>
+<p>Es gibt verschiedene Ansätze und Modelle für die Rechnerarchitektur, wie z.B. die Von-Neumann-Architektur, die als grundlegendes Konzept für die meisten modernen Computer dient. Es gibt jedoch auch alternative Ansätze wie die Harvard-Architektur oder RISC (Reduced Instruction Set Computing) und CISC (Complex Instruction Set Computing), die unterschiedliche Schwerpunkte auf die Organisation und Funktionalität von Computerhardware legen.</p>
+<p>Die Rechnerarchitektur ist ein wichtiger Aspekt bei der Entwicklung von Computerhardware und spielt eine entscheidende Rolle bei der Leistungsfähigkeit, Skalierbarkeit, Effizienz und Zuverlässigkeit von Computersystemen. Sie beeinflusst auch die Entwicklung von Software, da Programme entsprechend der Rechnerarchitektur entworfen und optimiert werden müssen, um effizient auf der Hardware ausgeführt zu werden.</p>
+<a href="#Inhalt"> Zurück zum Inhalt </a>            
+
+<h3 id="Darstellungsformen"> Darstellungsformen </h3>
+<img src="AND.png">
+<img src="OR.png">
+<img src="XOR.png">
+<h5> Gatterschaltungen</h5>
+<img src="Gatter.png">
+<a href="#Inhalt"> Zurück zum Inhalt </a>
+
+
+
+
+<h3 id="Vereinfachung"> Vereinfachung </h3>
+
+Gleichung: (¬ (𝑎 ∧ 𝑏) ∧ ¬ (𝑎 ∨ 𝑐)) ∧ (¬𝑏 ∨ 𝑏)
+<p> In eine Wahrheitstabelle überführen: </p>
+<img src ="Wahrheitstabelle1 .png" alt="Bild Wahrheitstabelle">
+<img src ="Wahrheitstabelle2 .png" alt="Bild Wahrheitstabelle" >
+
+<p> <a href = "https://www.youtube.com/watch?v=cUc4Y_tXWLY"> Vielleicht hilft dieses Video? </a> </p>
+<p> Es gibt auch noch andere Methoden, jeodch sollte es damit schon grundlegend klar sein. </p>
+
+
+<a href="#Inhalt"> Zurück zum Inhalt </a>
+
+
+
+        <p><a id = "Startseite" href = "Startseite.html"> Zurück zur Hauptseite <a></p>
+        
+
+    </body>
+</html>

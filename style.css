@@ -1,0 +1,29 @@
+a { color: rgb(252, 6, 6);
+font-style: initial; 
+font-size: large;}
+a:hover {
+    color:  rgb(252, 6, 6);
+    text-decoration: burlywood;
+ }
+body {background-color: rgba(166, 214, 216, 0.671);
+    font-family: Helvetica, Arial, sans-serif;
+}
+ol { color: rgb(252, 6, 6); }
+h1 {color: rgb(88, 87, 87) ;}
+h2 {color: rgb(88, 87, 87) ;}
+
+img {
+    max-width:100%;
+    height: auto;
+    }
+
+#Startseite {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid blue;
+    background-color: aqua;
+  
+    color: rgb(252, 6, 6);
+    text-decoration: burlywood;
+}
